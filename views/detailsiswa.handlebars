@@ -1,0 +1,7 @@
+<h1>{{siswa.nama}}</h1>
+<strong>Nisn :</strong>{{siswa.nisn}} <br>
+
+<a href="/siswa/edit/{{siswa.id}}" class="btn btn-secondary">Update</a>
+<form class="form-inline my-2 my-lg-0" method="post" action="/siswa/delete/{{siswa.id}}?_method=DELETE">
+    <button class="btn btn-secondary my-2 my-sm-0 pull-right" type="submit">Delete</button>
+</form>

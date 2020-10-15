@@ -1,0 +1,8 @@
+<h5>Add Siswa</h5>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form class="form-inline my-2 my-lg-0" method="post" action="/siswa/add">
+    <input class="form-control mr-sm-2" type="text" placeholder="ID siswa" name="id" aria-label="ID siswa">
+    <input class="form-control mr-sm-2" type="text" placeholder="NISN siswa" name="nisn" aria-label="NISN siswa">
+    <input class="form-control mr-sm-2" type="text" placeholder="Nama Siswa" name="nama" aria-label="Nama Siswa">
+    <input class="btn btn-secondary my-2 my-sm-0" type="submit" value="Add">
+</form>
